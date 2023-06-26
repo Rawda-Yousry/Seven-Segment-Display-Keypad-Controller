@@ -22,5 +22,6 @@ The project includes the following files:
   * After a key press, the stored key value shall not change until the key is released.
   * The stored key value shall not change until the key is released and the Keypad_GetKey function is called.
   * The function shall use a lookup table implementation to determine the value of the pressed key.
+    
 **Keypad_GetKey function:**
-  *Shall be called by the application to retrieve the last stored key value.
+  * Shall be called by the application to retrieve the last stored key value.
